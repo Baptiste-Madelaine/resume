@@ -43,7 +43,7 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Frontend', en: 'Frontend' },
       type: 'badges',
       items: [
-        { name: 'React' },
+        { name: 'VueJS' },
         { name: 'JavaScript' },
         { name: 'HTML5' },
         { name: 'CSS3' },
@@ -104,7 +104,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Participation au développement et à l\'amélioration d\'applications internes.',
         en: 'Participation in the development and improvement of internal applications.',
       },
-      techs: ['PHP', 'Laravel', 'React', 'MySQL', 'Docker', 'Python'],
+      techs: ['PHP', 'Laravel', 'VueJS', 'MySQL', 'Docker', 'Python', 'Windows Server'],
       isHighlighted: true,
       details: {
         context: {
@@ -124,8 +124,8 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          fr: 'PHP / Laravel / React / MySQL / Docker / Linux',
-          en: 'PHP / Laravel / React / MySQL / Docker / Linux',
+          fr: 'PHP / Laravel / VueJS / MySQL / Docker / Linux / Windows Server',
+          en: 'PHP / Laravel / VueJS / MySQL / Docker / Linux / Windows Server',
         },
       },
     },
@@ -151,7 +151,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Réalisation d\'un inventaire complet des équipements informatiques pour la DSI.',
         en: 'Conducted a complete IT equipment inventory for the IT department.',
       },
-      techs: ['Linux'],
+      techs: ['Linux', 'Windows'],
     },
   ],
   education: [
@@ -168,7 +168,17 @@ export const resumeConfig: ResumeConfig = {
     },
   ],
   projects: [],
-  hobbies: [],
+  hobbies: [
+    {
+      title: { fr: 'Mécanique', en: 'Mechanical Engineering & Motorbike Repair' },
+    },
+    {
+      title: { fr: 'Jeux vidéo', en: 'Video Games' },
+    },
+    {
+      title: { fr: 'Sport', en: 'Sports' },
+    },
+  ],
   theme: { preset: 'ocean' },
   labels: {
     sections: {
